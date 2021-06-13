@@ -173,8 +173,22 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106131234136_InitialModel.cs" />
+    <Compile Include="Migrations\202106131234136_InitialModel.Designer.cs">
+      <DependentUpon>202106131234136_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106131310274_AddGigTable.cs" />
+    <Compile Include="Migrations\202106131310274_AddGigTable.Designer.cs">
+      <DependentUpon>202106131310274_AddGigTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106131332447_OverrideConventionsForGigsAndGenres.cs" />
+    <Compile Include="Migrations\202106131332447_OverrideConventionsForGigsAndGenres.Designer.cs">
+      <DependentUpon>202106131332447_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -252,6 +266,17 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202106131234136_InitialModel.resx">
+      <DependentUpon>202106131234136_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106131310274_AddGigTable.resx">
+      <DependentUpon>202106131310274_AddGigTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106131332447_OverrideConventionsForGigsAndGenres.resx">
+      <DependentUpon>202106131332447_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
