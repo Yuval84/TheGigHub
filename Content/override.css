@@ -1,0 +1,28 @@
+﻿
+
+
+/*Bottstrap Override*/
+.navbar-inverse {
+    background-color: #ff4342;
+    border-color: #ff4342;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #d72727;
+}
+
+.dropdown-menu {
+    box-shadow: none
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
