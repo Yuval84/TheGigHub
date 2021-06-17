@@ -37,9 +37,9 @@ textarea {
     color: white;
 }
 
-    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
         background-color: #AB1C1C;
-    }
+}
 
 .dropdown-menu {
     box-shadow: none
